@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Catálogo Netflix</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho com logomarca e barra de navegação -->
+    <header>
+      <div class="navbar">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix Logo"
+          class="logo"
+        />
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Bombando</a></li>
+            <li><a href="#">Minha lista</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Banner principal com destaque de filme -->
+    <section class="highlight">
+      <div class="banner">
+        <img
+          src="https://via.placeholder.com/800x400?text=Banner+de+Filme"
+          alt="Banner de Filme"
+        />
+        <div class="banner-info">
+          <h1>Filme em Destaque</h1>
+          <button>Assistir</button>
+          <button>Mais informações</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seções de lançamentos e categorias -->
+    <section class="catalog">
+      <h2>Lançamentos</h2>
+      <div class="carousel-container">
+        <button class="scroll-left">◀</button>
+        <div class="carousel" id="lancamentos"></div>
+        <button class="scroll-right">▶</button>
+      </div>
+
+      <h2>Comédias de Natal</h2>
+      <div class="carousel-container">
+        <button class="scroll-left">◀</button>
+        <div class="carousel" id="comedias"></div>
+        <button class="scroll-right">▶</button>
+      </div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
